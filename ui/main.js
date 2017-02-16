@@ -12,5 +12,5 @@ button.onClick = function () {
     };
     
     request.open('GET', 'http://lucky-prajjwal.imad.hasura-app.io/counter',true);
-    request.send();
+    request.send(null);
 };
